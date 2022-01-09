@@ -1,0 +1,3 @@
+// Code that generates an array of each harbour’s connected routes
+
+graph.triplets.sortBy(_.srcAttr, ascending=true).map(triplet => "Harbour: " + triplet.srcAttr + " - Associated Route: " + triplet.attr.toString).collect().distinct.foreach(println)
