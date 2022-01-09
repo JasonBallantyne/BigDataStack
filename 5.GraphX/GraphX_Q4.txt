@@ -1,1 +1,0 @@
-val mostRoutes = graph.inDegrees.collect.sortWith(_._2 >_._2).map(x => (reverseMap(x._1), x._2)).take(3)

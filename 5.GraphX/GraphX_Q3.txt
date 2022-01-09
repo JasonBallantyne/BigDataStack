@@ -1,4 +1,0 @@
-val ReverseMapHarbour = harbourMapRDD.flatMap(har => Seq((har.HarbourNo, har.HarbourName))).distinct
-val reverseMap = ReverseMapHarbour.map{ case (a, b) => (a -> b) }.collect.toMap
-
-graph.edges.filter { case ( Edge(origin, destination, route))=> route == "Porium_Thirty-one"}.foreach(println)
