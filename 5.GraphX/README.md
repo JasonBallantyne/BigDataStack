@@ -1,3 +1,7 @@
+# GraphX
+
+Please refer to [GraphX_Tasks](https://github.com/JasonBallantyne/BigData/blob/main/5.GraphX/GraphX_Tasks.pdf) for full list of objectives.
+
 Before beggining, two changes were made to each of the attached CVs to alter the raw CVs.
 
 - Firstly, the last row was added to the mirrored column "unknown, 0, unknown, 0" to deal with unknown values, the code to do this was:
