@@ -1,3 +1,7 @@
+# SQL & NoSQL
+
+Please refer to [SQL-NoSQL_Tasks](https://github.com/JasonBallantyne/BigData/blob/main/2.SQL-NoSQL/SQL-NoSQL_Tasks.pdf) for full list of objectives.
+
 Scripts must be run in chronological order. 
 This is to ensure the database gets created before queries are attempting to be performed on the database.
 The order the scripts should be ran are:
