@@ -1,4 +1,8 @@
-In other to run these queries, it is necessary to firstly load the data from the given file (spark.csv)
+# Spark
+
+Please refer to [Spark_Tasks](https://github.com/JasonBallantyne/BigData/blob/main/4.Spark/Spark_Tasks.pdf) for full list of objectives.
+
+In other to run these queries, it is necessary to firstly load the data from the given file (spark.csv).
 To load it in as a Dataframe, run the following query:
 - val RestaurantDF =
 spark.read.format("com.databricks.spark.csv").option("header",
