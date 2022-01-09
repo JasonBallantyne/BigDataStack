@@ -1,3 +1,8 @@
+# Hadoop
+
+
+Please refer to [Hadoop_Tasks](https://github.com/JasonBallantyne/BigData/blob/main/3.Hadoop/Hadoop_Tasks.pdf) for full list of objectives.
+
 MapReduce expects the Input and Output paths to be the directories in HDFS.
 Before executing the MapReduce Jobs, you must firstly do the following:
 
